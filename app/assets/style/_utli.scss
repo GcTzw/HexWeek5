@@ -1,0 +1,57 @@
+.container
+{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.bg-sidebar{
+    background-color: #F8F9FA;
+}
+
+.c-gray
+{
+    color: #6C757D;
+}
+
+
+.sidebar-container
+{
+    width: 296px;
+}
+
+.main-container
+{
+    max-width: 984px;
+    height: 500px;
+}
+
+.mt-05{
+    margin-top: $base-px * 0.5 !important;
+}
+.mt-3{
+    margin-top: $base-px * 3 !important;
+}
+.mt-5{
+    margin-top: $base-px * 5 !important;
+}
+.ml-2{
+    margin-left: $base-px * 2;
+}
+
+.pt-4{
+    padding-top: $base-px * 4 !important;
+}
+.pb-4{
+    padding-bottom: $base-px * 4 !important;
+}
+.pl-4{
+    padding-left: $base-px * 4 !important;
+}
+
+.fz-2{
+    font-size: $base-px * 2;
+}
+.fz-14px
+{
+    font-size: 14px;
+}
