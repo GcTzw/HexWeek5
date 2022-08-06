@@ -22,7 +22,6 @@
 .main-container
 {
     width: 984px;
-    height: 500px;
 }
 
 .mt-05{
@@ -33,6 +32,9 @@
 }
 .mt-5{
     margin-top: $base-px * 5 !important;
+}
+.mt-52px{
+    margin-top: 52px;
 }
 .ml-1{
     margin-left: $base-px * 1;
