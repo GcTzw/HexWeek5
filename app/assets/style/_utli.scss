@@ -21,7 +21,7 @@
 
 .main-container
 {
-    max-width: 984px;
+    width: 984px;
     height: 500px;
 }
 
@@ -34,8 +34,17 @@
 .mt-5{
     margin-top: $base-px * 5 !important;
 }
+.ml-1{
+    margin-left: $base-px * 1;
+}
 .ml-2{
     margin-left: $base-px * 2;
+}
+.ml-3{
+    margin-left: $base-px * 3;
+}
+.ml-6{
+    margin-left: $base-px * 6;
 }
 
 .pt-4{
@@ -50,6 +59,9 @@
 
 .fz-2{
     font-size: $base-px * 2;
+}
+.fz-3{
+    font-size: $base-px * 3;
 }
 .fz-14px
 {
