@@ -1,23 +1,77 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+a {
+  text-decoration: none;
+  color: #212529; }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+p {
+  margin: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.bg-sidebar {
+  background-color: #F8F9FA; }
+
+.c-gray {
+  color: #6C757D; }
+
+.sidebar-container {
+  width: 296px; }
+
+.main-container {
+  max-width: 984px;
+  height: 500px; }
+
+.mt-05 {
+  margin-top: 4px !important; }
+
+.mt-3 {
+  margin-top: 24px !important; }
+
+.mt-5 {
+  margin-top: 40px !important; }
+
+.ml-2 {
+  margin-left: 16px; }
+
+.pt-4 {
+  padding-top: 32px !important; }
+
+.pb-4 {
+  padding-bottom: 32px !important; }
+
+.pl-4 {
+  padding-left: 32px !important; }
+
+.fz-2 {
+  font-size: 16px; }
+
+.fz-14px {
+  font-size: 14px; }
+
+.icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px; }
+
+.pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url("../images/andychen.jpeg");
+  background-position: center;
+  background-size: cover; }
 
 /*# sourceMappingURL=all.css.map */
