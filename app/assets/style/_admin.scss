@@ -1,14 +1,32 @@
 .add{
     width: 24px;
     height: 24px;
-    color: #198754;
+    color: $color-green;
 }
 
-.add-new:hover{
-    color: #198754;
+.admin a:hover{
+    color: $color-green;
 }
 
-.td-p{
-    padding-top: 19px;
-    padding-bottom: 17px;
+.admin-table td {
+    padding-top: 19px !important;
+    padding-bottom: 17px !important;
+}
+
+.btn-change-page
+{
+
+    button{
+        color: $color-main;
+        border-color: $color-green;
+    }
+
+    button:hover{
+        background-color: $color-sec;
+    }
+
+    .btn-clicked{
+        color: #fff;
+        background-color: $color-green;
+    }
 }

@@ -12,3 +12,20 @@
     background-position:  center;
     background-size: cover;
 }
+
+.sidebar-menu li:hover{
+    background-color: $color-sec;
+}
+.sidebar-menu a:hover {
+    color: $color-main;
+}
+
+.menu-clicked{
+    border-left: 4px solid $color-green;
+    padding-left: $base-px * 3.5 !important;
+
+    a{
+        color: $color-green ;
+    }
+}
+

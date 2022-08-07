@@ -1,18 +1,17 @@
-.container
-{
-    max-width:1200px;
-    margin: 0 auto;
-}
 
 .bg-sidebar{
     background-color: #F8F9FA;
 }
 
-.c-gray
-{
+.c-gray{
     color: #6C757D;
 }
-
+.c-black{
+    color: $color-main;
+}
+.c-green{
+    color: $color-green !important;
+}
 
 .sidebar-container
 {
@@ -32,6 +31,9 @@
 }
 .mt-5{
     margin-top: $base-px * 5 !important;
+}
+.mt-8{
+    margin-top: $base-px * 8 !important;
 }
 .mt-52px{
     margin-top: 52px;
@@ -57,6 +59,9 @@
 }
 .pl-4{
     padding-left: $base-px * 4 !important;
+}
+.pr-4{
+    padding-right: $base-px * 4 !important;
 }
 
 .fz-2{
