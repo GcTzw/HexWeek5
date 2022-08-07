@@ -18,15 +18,17 @@ img {
   height: auto;
   vertical-align: middle; }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto; }
-
 .bg-sidebar {
   background-color: #F8F9FA; }
 
 .c-gray {
   color: #6C757D; }
+
+.c-black {
+  color: #212529; }
+
+.c-green {
+  color: #198754 !important; }
 
 .sidebar-container {
   width: 296px; }
@@ -42,6 +44,9 @@ img {
 
 .mt-5 {
   margin-top: 40px !important; }
+
+.mt-8 {
+  margin-top: 64px !important; }
 
 .mt-52px {
   margin-top: 52px; }
@@ -67,6 +72,9 @@ img {
 .pl-4 {
   padding-left: 32px !important; }
 
+.pr-4 {
+  padding-right: 32px !important; }
+
 .fz-2 {
   font-size: 16px; }
 
@@ -89,16 +97,39 @@ img {
   background-position: center;
   background-size: cover; }
 
+.sidebar-menu li:hover {
+  background-color: #CED4DA; }
+
+.sidebar-menu a:hover {
+  color: #212529; }
+
+.menu-clicked {
+  border-left: 4px solid #198754;
+  padding-left: 28px !important; }
+  .menu-clicked a {
+    color: #198754; }
+
 .add {
   width: 24px;
   height: 24px;
   color: #198754; }
 
-.add-new:hover {
+.admin a:hover {
   color: #198754; }
 
-.td-p {
-  padding-top: 19px;
-  padding-bottom: 17px; }
+.admin-table td {
+  padding-top: 19px !important;
+  padding-bottom: 17px !important; }
+
+.btn-change-page button {
+  color: #212529;
+  border-color: #198754; }
+
+.btn-change-page button:hover {
+  background-color: #CED4DA; }
+
+.btn-change-page .btn-clicked {
+  color: #fff;
+  background-color: #198754; }
 
 /*# sourceMappingURL=all.css.map */
