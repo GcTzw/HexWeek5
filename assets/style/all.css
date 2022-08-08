@@ -48,6 +48,9 @@ img {
 .mt-5 {
   margin-top: 40px !important; }
 
+.mt-7 {
+  margin-top: 56px !important; }
+
 .mt-8 {
   margin-top: 64px !important; }
 
@@ -78,6 +81,9 @@ img {
 .pr-4 {
   padding-right: 32px !important; }
 
+.fz-15 {
+  font-size: 12px; }
+
 .fz-2 {
   font-size: 16px; }
 
@@ -91,6 +97,11 @@ img {
   font-size: 20px;
   width: 20px;
   height: 20px; }
+
+.icon-lg {
+  font-size: 24px;
+  width: 24px;
+  height: 24px; }
 
 .pic {
   width: 40px;
@@ -134,5 +145,22 @@ img {
 .btn-change-page .btn-clicked {
   color: #fff;
   background-color: #198754; }
+
+.assignment a:hover {
+  color: #198754; }
+
+.test {
+  height: 100px;
+  background-color: gray; }
+
+.assignment-list {
+  width: 320px;
+  border: 1px solid #000;
+  height: 100px; }
+
+.assignment-detail {
+  width: 584px;
+  border: 1px solid #000;
+  height: 100px; }
 
 /*# sourceMappingURL=all.css.map */
